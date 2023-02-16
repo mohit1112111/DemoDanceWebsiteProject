@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color:#583e3e;
+    padding: 12px 14px ;
+
+}
+
+#navbar ul{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#navbar li{
+    list-style: none;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    color: white;
+    font-size: 1.3rem;
+}
+#navbar li a:hover{
+    color:red;
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 20px;
+    padding-right: 29px;
+}
+#logo img{
+    height: 34px;
+    filter: invert(1);
+    
+}
+#introSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+
+    background: center / cover no-repeat url("/static/bg.jpg");
+ 
+    color:black;    
+    height: 400px;
+    font-size: 40px;
+    
+    padding-bottom: 168px; 
+
+}
+#introSection div.small{
+    font-size: 23px;
+}
+
+#missionSection {
+    height: 300px;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 6px;
+    font-family: 'Karla', sans-serif;
+    font-size: 37px;
+    
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    margin: 11px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 146px;
+    width: 30%;
+    background-color: #f7e7e7;
+}
+.card-Box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-content{
+    font-family: 'Karla', sans-serif;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 10px;
+    height: 75px;
+    margin: 3px 10px;
+    width: 123px;
+    
+}
+.card-img img{
+    height: inherit;
+ 
+ 
+ }
+#sponsorSection {
+    height: 300px;
+    background-color: #ff0c001a;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Karla', sans-serif;
+    font-size: 37px;
+    
+
+
+}
+
+#footer {
+    height: 54px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+#sponsorId {
+    height: 170px;;
+    max-width: 1000px;
+    margin: 34px auto;
+}
+.spImage{
+    height: 140px;
+    margin: 20px;
+}

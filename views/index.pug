@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Dance Website Blog
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+              img(src="/static/img/1.png")
+              | MDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info ]
+            li #[a(href="/") Contact Us ]
+
+    section#introSection 
+        div Welcome to Mohit'Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+    
+    section#missionSection 
+        h2 Our Mission 
+        div.card 
+            h3 Dance perfection
+            div.card-Box
+                div.card-img 
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is best DanceAcademy in the world 
+        div.card 
+            h3 Dance The Way Like You
+            div.card-Box
+                div.card-img 
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is best DanceAcademy in the world 
+        div.card 
+            h3 Expert Teaching
+            div.card-Box
+                div.card-img 
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is best DanceAcademy in the world 
+
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsorId 
+            img(src="/static/img/logo1.png", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image" Class="spImage")
+
+    footer#footer 
+      | Copyright © 2021 MohitDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js
